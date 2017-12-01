@@ -1,0 +1,24 @@
+{
+  "name": "physics-sim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.elm",
+  "scripts": {
+    "start": "elm-reactor",
+    "build": "elm-make App.elm --output ./dist/index.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgtkr/physics-sim.git"
+  },
+  "author": "kgtkr",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kgtkr/physics-sim/issues"
+  },
+  "homepage": "https://github.com/kgtkr/physics-sim#readme",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
