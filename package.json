@@ -2,10 +2,10 @@
   "name": "physics-sim",
   "version": "1.0.0",
   "description": "",
-  "main": "App.elm",
+  "main": "Main.elm",
   "scripts": {
     "start": "elm-reactor",
-    "build": "elm-make src/App.elm --output ./dist/index.html",
+    "build": "elm-make src/Main.elm --output ./dist/index.html",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
